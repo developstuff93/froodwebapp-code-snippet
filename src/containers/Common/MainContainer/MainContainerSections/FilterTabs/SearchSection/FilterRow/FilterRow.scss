@@ -1,0 +1,58 @@
+@import '~styles/common.scss';
+@import '~styles/icons.scss';
+
+$dropdown-width: 95%;
+
+.filterRow {
+  margin-top: 1rem;
+}
+
+.logicalDropdown {
+  width: 5rem;
+}
+
+.columnDropdown {
+  width: $dropdown-width;
+}
+
+.relationsDropdown {
+  width: $dropdown-width;
+}
+
+.availableValuesDropdown {
+  width: $dropdown-width;
+}
+
+.valueCol {
+  position: relative;
+}
+
+.addIcon {
+  @extend .icon;
+  position: absolute;
+  top: 50%;
+  right: -1.5rem;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.deleteIcon {
+  @extend .addIcon;
+  right: -4rem;
+}
+
+.filterName {
+  margin-left: auto;
+  display: block;
+}
+
+
+.saveFilterButton {
+  background-color: crimson;
+  color: white;
+}
+
+.deleteFilterButton {
+  background-color: darkslategray;
+  color: white;
+}

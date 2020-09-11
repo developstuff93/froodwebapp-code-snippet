@@ -1,0 +1,30 @@
+.tabs {
+  margin-top: 1rem;
+  div {
+    margin-bottom: 0 !important;
+  }
+}
+
+.channel {
+  height: 10rem;
+  width: 10rem;
+  border: 0.5px solid #979797;
+  box-sizing: border-box;
+  padding: 0.7rem;
+  div:nth-child(1) {
+    height: 20%;
+  }
+  div:nth-child(2) {
+    height: 60%;
+  }
+  div:nth-child(3) {
+    height: 20%;
+    text-align: center;
+  }
+}
+
+.channelDescription {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #A0A0A0;
+}

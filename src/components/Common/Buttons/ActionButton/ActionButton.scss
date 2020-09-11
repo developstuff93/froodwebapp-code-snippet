@@ -1,0 +1,15 @@
+.actionButton {
+  border: 1px solid #CCCCCC;
+  background-color: white;
+  z-index: 5;
+  display: block;
+  color: black;
+  float: right;
+  width: 7rem;
+  span {
+    margin-right: 0.5rem;
+  }
+  a {
+    color: black;
+  }
+}

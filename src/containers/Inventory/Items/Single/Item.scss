@@ -1,0 +1,14 @@
+@import '~styles/common.scss';
+
+.productVariantsTitle {
+  font-size: 18px;
+}
+
+.productValues {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  i {
+    margin-left: auto;
+  }
+}

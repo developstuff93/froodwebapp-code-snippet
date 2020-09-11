@@ -1,0 +1,18 @@
+@import '~styles/colors.scss';
+
+.button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  outline: none;
+  color: $main-black;
+  transform: translateZ(0);
+}
+
+.disabled {
+  background-color: $antd-grey !important;
+  cursor: not-allowed;
+}
+

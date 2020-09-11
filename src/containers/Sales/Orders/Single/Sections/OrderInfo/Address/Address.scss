@@ -1,0 +1,37 @@
+@import '~styles/colors.scss';
+
+$main-font-size: 14px;
+$company-font-size: $main-font-size + 4px;
+
+.addressHeader {
+  color: $main-red;
+  font-size: $main-font-size;
+  span {
+    color: #108ee9;
+    cursor: pointer;
+    margin-left: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.customerName {
+  font-size: $company-font-size;
+}
+
+.customerAddress {
+  div {
+    color: black;
+    font-size: $main-font-size;
+  }
+}
+
+.customerInfo {
+  font-size: $main-font-size;
+}
+
+.orderNo {
+  font-size: $main-font-size;
+  margin-bottom: 1rem;
+}

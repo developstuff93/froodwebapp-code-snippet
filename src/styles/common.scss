@@ -1,0 +1,78 @@
+@import 'colors';
+
+.rowsContainer {
+  div[class*='row'] {
+    margin-bottom: 1rem;
+  }
+}
+
+.form {
+  @extend .rowsContainer;
+  div[class*="col"] > label {
+    float: right;
+  }
+}
+
+.itemsTable {
+  div[class*="ant-table"] {
+    overflow: visible;
+  }
+  table {
+    overflow: visible;
+  }
+}
+
+.table {
+  width: 100%;
+  color: rgba(0,0,0,.85);
+  table {
+    padding: 0 !important;
+  }
+  thead tr th {
+    background: $main-gray !important;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  tbody tr td {
+    white-space: pre;
+    font-weight: 600;
+  }
+  th, td {
+    text-align: center !important;
+  }
+}
+
+.tableWithMarginTop {
+  @extend .table;
+  margin-top: 1rem;
+}
+
+.select {
+  width: 100%;
+}
+
+.input{
+  margin-bottom: 1rem;
+}
+
+.radioGroup{
+  width: 100%;
+  label {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 1rem;
+  div[class*="ant-card-body"] {
+    div[class*="row"] {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.row {
+  margin-top: 1rem;
+}

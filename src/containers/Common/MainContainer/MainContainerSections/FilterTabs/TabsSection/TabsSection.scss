@@ -1,0 +1,16 @@
+@import '~styles/common.scss';
+@import '~styles/icons.scss';
+
+.filterIcon {
+  @extend .icon;
+  font-size: 0.8rem;
+  padding: 0 0.5rem
+}
+
+.searchIcon {
+  margin-right: 0.5rem;
+}
+
+.tabs {
+  height: 2rem;
+}

@@ -1,0 +1,14 @@
+@import '~styles/common.scss';
+
+.tabs {
+  margin-top: 2rem;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.invoiceTable {
+  @extend .table;
+  margin-bottom: 2rem;
+}

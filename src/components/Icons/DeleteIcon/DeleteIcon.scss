@@ -1,0 +1,9 @@
+@import '~styles/icons.scss';
+@import '~styles/colors.scss';
+
+.deleteIcon {
+  @extend .icon;
+  font-size: 24px;
+  color: $main-black;
+  margin: 0 0.5rem;
+}

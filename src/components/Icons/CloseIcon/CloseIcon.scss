@@ -1,0 +1,9 @@
+@import '~styles/icons.scss';
+@import '~styles/colors.scss';
+
+.closeIcon {
+  @extend .icon;
+  font-size: 24px;
+  color: $main-red;
+  margin: 0 0.5rem;
+}

@@ -1,0 +1,21 @@
+@import 'vendor/normalize';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Remove yellow chrome autofill */
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+span[class="ant-breadcrumb-separator"] {
+  color: black;
+}
+
+div[class*="ant-pagination-options-size-changer"] {
+  margin: 0;
+}

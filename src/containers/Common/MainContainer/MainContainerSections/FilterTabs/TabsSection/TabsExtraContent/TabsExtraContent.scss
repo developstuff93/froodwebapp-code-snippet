@@ -1,0 +1,19 @@
+@import '~styles/common';
+@import '~styles/icons.scss';
+
+.tabsExtraContent {
+  padding: 0 1rem;
+  border: 1px solid #CCC;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.refreshIcon {
+  @extend .icon;
+}
+
+.tableCogIcon {
+  @extend .icon;
+  font-size: 1.15rem;
+}
+

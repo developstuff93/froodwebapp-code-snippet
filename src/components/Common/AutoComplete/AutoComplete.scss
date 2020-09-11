@@ -1,0 +1,33 @@
+.autoCompleteMenu {
+  z-index: 50;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  background: white;
+  margin: 2px 2px;
+  font-size: 0.8rem;
+  position: absolute;
+  display: block;
+  overflow: auto;
+  height: auto;
+  max-height: 40vh;
+  width: auto;
+  white-space: nowrap;
+  padding: 0.2rem;
+}
+
+.autoCompleteMenuNoItems {
+  @extend .autoCompleteMenu;
+  height: auto;
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autoCompleteInput {
+  width: 100%;
+  height: 100%;
+  min-height: 1.7rem;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding-left: 0.5rem;
+}

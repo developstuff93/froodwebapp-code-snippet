@@ -1,0 +1,32 @@
+@import '~styles/colors.scss';
+
+$main-font-size: 14px;
+$company-font-size: $main-font-size + 4px;
+
+.addressHeader {
+  color: $main-red;
+  font-size: $main-font-size;
+  span {
+    color: #108ee9;
+    cursor: pointer;
+    margin-left: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.addressCompany {
+  font-size: $company-font-size;
+}
+
+.addressInfo {
+  div {
+    color: black;
+    font-size: $main-font-size;
+  }
+}
+
+.phoneNo {
+  font-size: $main-font-size;
+}
